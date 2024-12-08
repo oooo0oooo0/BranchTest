@@ -44,6 +44,7 @@ func init() {
 	rootCmd.AddCommand(migrate.StartCmd)
 	rootCmd.AddCommand(webhook.WebhookCmd)
 
+	fmt.Println("fobrain-feat/c")
 	fmt.Println("fobrain-feat/b")
 }
 
