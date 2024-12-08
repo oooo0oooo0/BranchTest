@@ -43,6 +43,8 @@ func tip() {
 func init() {
 	rootCmd.AddCommand(migrate.StartCmd)
 	rootCmd.AddCommand(webhook.WebhookCmd)
+
+	fmt.Println("fobrain-feat/a")
 }
 
 // Execute : apply commands
