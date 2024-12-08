@@ -45,10 +45,13 @@ func init() {
 	rootCmd.AddCommand(webhook.WebhookCmd)
 
 	fmt.Println("fobrain-feat/c")
+	fmt.Println("fobrain-feat/b")
 }
 
 // Execute : apply commands
 func main() {
+	fmt.Println("fobrain-feat/b-2")
+
 	if err := rootCmd.Execute(); err != nil {
 		os.Exit(-1)
 	}
